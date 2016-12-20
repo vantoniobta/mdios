@@ -1,4 +1,3 @@
-# mdios
-testing
-valentin antonio bautista
-linea agregado nuevo ....
+# sistematc
+
+example tc , using php , js, ajax and mysql.
