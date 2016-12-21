@@ -79,6 +79,7 @@
             <input type="text" placeholder="producto" class="form-control"/>
           </div>
         </li>
+        <!-- facebook -->
         <li style="top: 5px; left: 40px;" class="fb">
            <a href="https://www.facebook.com/azaha.restaurante">
            <span class="form-control-feedback">
@@ -86,6 +87,7 @@
            </span>
            </a>
         </li>
+        <!-- twitter -->
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li style="top: 5px; left: 60px;" class="tw">
            <a href="https://twitter.com/vantonio_">
@@ -94,6 +96,9 @@
            </span>
            </a>
          </li>
+
+
+
         </ul>
     </div>
   </div>
@@ -106,28 +111,61 @@
 <section class="main container">
 	<div class="container">
 		<section class="post cold-md-6" >
-    <div class="panel panel-default">
+   <!--  <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title" align="center">Buscador!</h3>
+        <h3 class="panel-title" align="center">Hola!</h3>
       </div>
       <div class="panel-body">
       </div>
-    </div>
+    </div> -->
 
-		<!-- <div class="subbotones">
+		<div class="subbotones">
 			<ol class="breadcrumb">
-				<li><a href="#">view</a></li>
-				<li><a href="#">other</a></li>
-				<li><a href="#">list</a></li>
+				<li><a href="#">Hola</a></li>
+        <li><a href="#"></a></li>
 			</ol>
 		</div>
- -->
-		<!--aqui parrafo o texto...-->
-	<!-- 	<article class="post clearfix">
-			<a href="#" class="thumbpull-left">
-				<img src="CAM00446.jpg" alt="" width="320" height="250">
-			</a>	
-			<h2 class="post-title">
+
+		<!--aqui parrafo o texto...--><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="panel panel-default">
+    <div class="panel-body">
+		<article class="post clearfix">
+      <a href="#" class="thumbpull-left">
+        <i class="fa fa-car fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</a>
+
+       <a href="#" class="thumbpull-left">
+        <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+
+      <a href="#" class="thumbpull-left">
+        <i class="fa fa-motorcycle fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+
+      <a href="#" class="thumbpull-left">
+        <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+
+      <a href="#" class="thumbpull-left">
+        <i class="fa fa-home fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+
+      <a href="#" class="thumbpull-left">
+        <i class="fa fa-book fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a>
+
+      <a href="#" class="thumbpull-left">
+        <i class="fa fa-television fa-5x" aria-hidden="true"></i>
+      </a>
+
+
+<!-- 			<h2 class="post-title">
 				<a href="#">new proyect</a>
 				<p class="post-contenido text-justify">
 					Though we gotta say goodbye for the summer 
@@ -156,8 +194,10 @@
           Sealed with a kiss
 
 				</p>
-			</h2>
-		</article> -->
+			</h2> -->
+		</article>
+    </div>
+    </div>
 		<!--aqui parrafo o texto...-->
 
 		</section>
