@@ -98,9 +98,9 @@
 </head>
 <section>
 
-
-  <div class="panel panel-default">
-    <div class="panel-body">
+<!-- SE AGREGO DISEÑO EN LA LISTA DE PRODUCTOS -->
+<div class="panel panel-default">
+<div class="panel-body">
 
 <?php
 $a="TC0001";
@@ -148,6 +148,7 @@ $r=mysql_query("select a.code,a.nombre,a.descripcion,a.costo,a.categoria, b.nomb
 
  </div>
  </div>
+ <!-- SE AGREGO DISEÑO EN LA LISTA DE PRODUCTOS -->
 </section>
 </body>
 </html>
