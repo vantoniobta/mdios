@@ -98,6 +98,10 @@
 </head>
 <section>
 
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+
 <?php
 $a="TC0001";
 $v_cat="electronica";
@@ -116,21 +120,34 @@ $r=mysql_query("select a.code,a.nombre,a.descripcion,a.costo,a.categoria, b.nomb
 //impresión de la imagen
       while ($y=mysql_fetch_array($r)) {
         ?>
-        <div class="pdc">
-        <center>
-        <?php
-        ?>
-        <img src="../img/<?php echo $y['code'];?>/<?php echo $y['nombre_img'];?>"  id="ai"><br>
-       <span><?php echo $y['nombre'];?></span><br>
-       <a href="detalles.php?id=<?php  echo $y['code'];?>">ver</a><br><br>
-        <?php 
-        ?>
-    </center>
-    </div> 
+
+
+  
+            <div class="pdc">
+            <center>
+            <?php
+            ?>
+            <img src="../img/<?php echo $y['code'];?>/<?php echo $y['nombre_img'];?>"  id="ai"><br>
+           <span><?php echo $y['nombre'];?></span><br>
+           <a href="detalles.php?id=<?php  echo $y['code'];?>">ver</a><br><br>
+            <?php 
+            ?>
+            </center>
+            </div>
+
+           
+
+
+
+
+
   <?php
 
       }
 ?>
+
+ </div>
+ </div>
 </section>
 </body>
 </html>
