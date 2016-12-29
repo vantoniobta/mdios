@@ -7,10 +7,12 @@
 	<title>Rincón de Azahar</title>
 
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/imagen.css">
-   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/imagen.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <link rel="icon" href="../img/icono.png">
+    <link rel="stylesheet" type="text/css" href="css/test1.css">
 </head>
 <style type="text/css">
 .fb .fa-facebook-official{
@@ -71,22 +73,22 @@
         <li><a href="##" style="color: white;">Clientes</a></li>
         <li><a href="acerca.php" style="color: white;">Acerca de</a></li>
         <li style="top: 8px; left:20px;">
-            <div class="inner-addon left-addon">
+             <div class="inner-addon left-addon">
              <i class="fa fa-search" aria-hidden="true"></i>
             <input type="text" placeholder="producto" class="form-control"/>
-          </div>
+           </div>
         </li>
         <li style="top: 5px; left: 40px;" class="fb">
-           <a href="https://www.facebook.com/azaha.restaurante">
-           <span class="form-control-feedback">
-            <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
-           </span>
-           </a>
+              <a href="https://www.facebook.com/azaha.restaurante">
+              <span class="form-control-feedback">
+              <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+             </span>
+            </a>
         </li>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <li style="top: 5px; left: 60px;" class="tw">
-           <a href="https://twitter.com/vantonio_">
-           <span class="form-control-feedback">
+             <li style="top: 5px; left: 60px;" class="tw">
+             <a href="https://twitter.com/vantonio_">
+             <span class="form-control-feedback">
             <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
            </span>
            </a>
@@ -98,31 +100,26 @@
 </head>
 <section>
 
-<!-- SE AGREGO DISEÑO EN LA LISTA DE PRODUCTOS -->
-<div class="panel panel-default">
-<div class="panel-body">
+      <!-- SE AGREGO DISEÑO EN LA LISTA DE PRODUCTOS -->
+          <div class="panel panel-default">
+          <div class="panel-body">
 
-<?php
-$a="TC0001";
-$v_cat="electronica";
-//$ruta="../img/TC0001/";z
-include("conexion.php");
-$con=mysql_connect($host,$user,$password) or die ("problemas al conectar");
-mysql_select_db($baseDe,$con) or die ("no se puede establecer la conexion con la base de datos");
+            <?php
+            $a="TC0001";
+            $v_cat="electronica";
+            //$ruta="../img/TC0001/";z
+            include("conexion.php");
+            $con=mysql_connect($host,$user,$password) or die ("problemas al conectar");
+            mysql_select_db($baseDe,$con) or die ("no se puede establecer la conexion con la base de datos");
 
-$r=mysql_query("select a.code,a.nombre,a.descripcion,a.costo,a.categoria, b.nombre_img
-                from  producto a, imagenes b
-                where a.code=b.clave GROUP BY a.code")or die(mysql_error());
+            $r=mysql_query("select a.code,a.nombre,a.descripcion,a.costo,a.categoria, b.nombre_img
+                            from  producto a, imagenes b
+                            where a.code=b.clave GROUP BY a.code")or die(mysql_error());
 
+             //impresión de la imagen
+            while ($y=mysql_fetch_array($r)) {
+                ?>
 
-
-
-//impresión de la imagen
-      while ($y=mysql_fetch_array($r)) {
-        ?>
-
-
-  
             <div class="pdc">
             <center>
             <?php
@@ -135,20 +132,27 @@ $r=mysql_query("select a.code,a.nombre,a.descripcion,a.costo,a.categoria, b.nomb
             </center>
             </div>
 
-           
+            <?php
 
-
-
-
-
-  <?php
-
-      }
-?>
+                }
+          ?>
 
  </div>
  </div>
  <!-- SE AGREGO DISEÑO EN LA LISTA DE PRODUCTOS -->
 </section>
+<!-- baner superios -->
+
+ <div id="section1" class="section white-text" style="background-image: url(../img/bg-azul.jpg)">
+        <div class="container center-align">
+        <h1 class="flow-text" align="center" style="color: #ffffff">Rincón de Azahar</h1>
+        <p class="mb-0" align="center" style="color: #ffffff">Av.Morelos 208, Zona centro, Tamazunchale, S.L.P.<br>
+        Tel.(483) 362-0550 E-mail:restaurante.azahar@hotmail.com</p>
+        </div>
+    </div>
+
+
+
+
 </body>
 </html>

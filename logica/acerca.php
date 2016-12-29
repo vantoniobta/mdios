@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/imagen.css">
    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/test1.css">
     <link rel="icon" href="../img/icono.png">
 </head>
 <style type="text/css">
@@ -102,58 +103,67 @@
 
 
   <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title" align="center">UBICACIÓN:</h3>
-      </div>
       <div class="panel-body">
-      <div id="map" class="map" style="width: 550px; height: 350px; left: 80px; top: 0px">
-      <!-- aqui va el google maps  -->
-     </div>
+          <div id="map" class="map" style="width: 550px; height: 350px; left: 80px; top: 0px">
+          <!-- aqui va el google maps  -->
+         </div>
       </div>
   </div>
+
+
 </section>
-<script type="text/javascript">
-        var mapOptions = {
-            center: new google.maps.LatLng(0, 0),
-            zoom: 16
-        },
-        map     = new google.maps.Map(document.getElementById("map"), mapOptions)
-        marker  = new google.maps.Marker({
-                             position: map.getCenter(),
-                             map: map,
-                             title: 'Drag to set position',
-                             draggable: true,
-                             flat: false
-                   });
-        google.maps.event.addListener(marker, 'dragend', function() {
-                      latlng = marker.getPosition();
-                      url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+ latlng.lat() + ',' + latlng.lng() + '&sensor=false';
-                      $.get(url, function(data) {
-                            if (data.status == 'OK') {
-                                map.setCenter(data.results[0].geometry.location);                
-                                if (confirm('Do you also want to change location text to ' + data.results[0].formatted_address) === true) {
-                                      $('#location').val(data.results[0].formatted_address);
-                                      $('#lat').val(data.results[0].geometry.location.lat);
-                                      $('#lng').val(data.results[0].geometry.location.lng);
-                                      }
-                                    }
-                                });    
-                            });
-              if ($('#map').hasClass('hidden')) {
-                     $('#map').removeClass('hidden').fadeIn().addClass('show');
-                     google.maps.event.trigger(map, 'resize');
-                  }
-              var address = 'Tamazunchale, san luis potosi'
-                  if (address.length == 0) {
-                     $('#map').removeClass('show').fadeOut().addClass('hidden');
-              }
-              url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address + '&sensor=false';
-                     $.get(url, function(data) {
-                      if (data.status == 'OK') {
-                         map.setCenter(data.results[0].geometry.location);
-                         marker.position=map.getCenter();
+      <script type="text/javascript">
+              var mapOptions = {
+                  center: new google.maps.LatLng(0, 0),
+                  zoom: 16
+              },
+              map     = new google.maps.Map(document.getElementById("map"), mapOptions)
+              marker  = new google.maps.Marker({
+                                   position: map.getCenter(),
+                                   map: map,
+                                   title: 'Drag to set position',
+                                   draggable: true,
+                                   flat: false
+                         });
+              google.maps.event.addListener(marker, 'dragend', function() {
+                            latlng = marker.getPosition();
+                            url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+ latlng.lat() + ',' + latlng.lng() + '&sensor=false';
+                            $.get(url, function(data) {
+                                  if (data.status == 'OK') {
+                                      map.setCenter(data.results[0].geometry.location);                
+                                      if (confirm('Do you also want to change location text to ' + data.results[0].formatted_address) === true) {
+                                            $('#location').val(data.results[0].formatted_address);
+                                            $('#lat').val(data.results[0].geometry.location.lat);
+                                            $('#lng').val(data.results[0].geometry.location.lng);
+                                            }
+                                          }
+                                      });    
+                                  });
+                    if ($('#map').hasClass('hidden')) {
+                           $('#map').removeClass('hidden').fadeIn().addClass('show');
+                           google.maps.event.trigger(map, 'resize');
+                        }
+                    var address = 'Tamazunchale, san luis potosi'
+                        if (address.length == 0) {
+                           $('#map').removeClass('show').fadeOut().addClass('hidden');
                     }
-              });
-</script>
+                    url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address + '&sensor=false';
+                           $.get(url, function(data) {
+                            if (data.status == 'OK') {
+                               map.setCenter(data.results[0].geometry.location);
+                               marker.position=map.getCenter();
+                          }
+                    });
+      </script>
+
+
+      <!-- baner superios -->
+ <div id="section1" class="section white-text" style="background-image: url(../img/bg-azul.jpg)">
+        <div class="container center-align">s
+        <h1 class="flow-text" align="center" style="color: #ffffff">Rincón de Azahar</h1>
+        <p class="mb-0" align="center" style="color: #ffffff">Av.Morelos 208, Zona centro, Tamazunchale, S.L.P.<br>
+        Tel.(483) 362-0550 E-mail:restaurante.azahar@hotmail.com</p>
+        </div>
+    </div>
 </body>
 </html>

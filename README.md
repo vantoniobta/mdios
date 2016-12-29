@@ -1,3 +1,4 @@
 # sistematc
-
-example tc , using php , js, ajax and mysql.
+using php, Bootstrap and mysql
+.................................
+testing example

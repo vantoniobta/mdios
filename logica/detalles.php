@@ -42,6 +42,7 @@
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/scc.css">
+  <link rel="stylesheet" type="text/css" href="css/test1.css">
   <link rel="icon" href="../img/icono.png">
 </head>
 <style type="text/css">
@@ -129,9 +130,9 @@
                                 ?>
 
 
-                            <!--code PHP -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <div class='col-md-6'>
+         <!--code PHP -->
+         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+           <div class='col-md-6'> <!-- INICIO DE IMAGENES SLIDERS-->
             <!-- START: Carousel-->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   
@@ -139,7 +140,6 @@
                 <div class="item active">
                   <a href="#" data-toggle="modal" data-target="#fullImage1"><img src='http://placehold.it/600x300&text=Image+1' /></a>
                 </div>
-
                 <?php
 
                  while ($y=mysql_fetch_array($r)) {  //img
@@ -178,19 +178,18 @@
                 <div class="item">
                   <img src='http://placehold.it/600x300&text=Image+8' />
                 </div> -->
-              </div>
-  
-              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-            </div>
-            <!-- END: Carousel -->
-          </div>
-
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+                </div>
+    
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                  </div>
+                  <!-- END: Carousel -->
+                </div>
+                  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
                     <div class="info">
                     <!-- CODE PHP -->
                     <?php
@@ -205,11 +204,21 @@
                     <!-- CODE PHP -->
                      <div class="info">
 
+                     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+                    <script src="https://code.jquery.com/jquery.js"></script>
+                    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+                    </body>
+
+<!--                      <div id="section1" class="section white-text" style="background-image: url(../img/bg-azul.jpg)">
+                          <div class="container center-align">
+                             <h1 class="flow-text" align="center" style="color: #ffffff">Rincón de Azahar</h1>
+                              <p class="mb-0" align="center" style="color: #ffffff">Av.Morelos 208, Zona centro, Tamazunchale, S.L.P.<br>
+                              Tel.(483) 362-0550 E-mail:restaurante.azahar@hotmail.com</p>
+                         </div>
+                       </div> -->
 
 
 
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-</body>
-</html>
+                    </html>
