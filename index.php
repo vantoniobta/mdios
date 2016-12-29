@@ -39,6 +39,17 @@
 /* add padding  */
 .left-addon input  { padding-left:  30px; }
 .right-addon input { padding-right: 30px; }
+
+hr.x1 { 
+    border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
 </style>
 <body>
 <head>
@@ -110,27 +121,27 @@
     <article class="post clearfix">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="#" class="thumbpull-left">
-        <i class="fa fa-car fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-car fa-5x" aria-hidden="true" style="color:#7B5B37;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </a>
 
        <a href="#" class="thumbpull-left">
-        <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-laptop fa-5x" aria-hidden="true" style="color:#FF7400;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </a>
 
       <a href="#" class="thumbpull-left">
-        <i class="fa fa-motorcycle fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-motorcycle fa-5x" aria-hidden="true" style="color:#055C5A;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </a>
 
       <a href="#" class="thumbpull-left">
-        <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-mobile fa-5x" aria-hidden="true" style="color:#79B947;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
       </a>
 
       <a href="#" class="thumbpull-left">
-        <i class="fa fa-home fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-home fa-5x" aria-hidden="true" style="color:#CD9100;"></i>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </a>
@@ -143,18 +154,82 @@
       </a>
 
       <a href="#" class="thumbpull-left">
-        <i class="fa fa-television fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-television fa-5x" aria-hidden="true" style="color:#768282;"></i>
       </a>
     </article>
     </div>
-    </div>
+    </div><br>
     <!--aqui parrafo o texto...-->
+
+
+    <div class="col-sm-6 col-md-3">
+       <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+          <md-icon><h2>Confianza</h2></md-icon>
+           <div flex layout="column" layout-align="center end">
+               <hr class="x1" style=" ">
+               <span class="md-headline">{{data.stats.uniqueusers}}</span>
+               <span class="md-body">Usuarios únicos</span>
+           </div>
+       </div>
+    </div>
+
+  <div class="col-sm-6 col-md-3">
+       <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+          <md-icon><h2>Confianza</h2></md-icon>
+           <div flex layout="column" layout-align="center end">
+               <hr class="x1">
+               <span class="md-headline">{{data.stats.uniqueusers}}</span>
+               <span class="md-body">Usuarios únicos</span>
+           </div>
+       </div>
+    </div>
+
+
+   <div class="col-sm-6 col-md-3">
+       <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+          <md-icon><h2>Confianza</h2></md-icon>
+           <div flex layout="column" layout-align="center end">
+           <hr class="x1">
+               <span class="md-headline">{{data.stats.uniqueusers}}</span>
+               <span class="md-body">Usuarios únicos</span>
+           </div>
+       </div>
+    </div>
+
+ <div class="col-sm-6 col-md-3">
+       <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
+          <md-icon><h2>Confianza</h2></md-icon>
+           <div flex layout="column" layout-align="center end">
+               <hr class="x1">
+               <span class="md-headline">{{data.stats.uniqueusers}}</span>
+               <span class="md-body">Usuarios únicos</span>
+           </div>
+       </div>
+    </div>
+
+ <!--    <div class="mk-info md-padding container">
+    <div class="md-padding col-sm-4">
+        <div style="width: 150px; height: 150px; border-radius: 50%; background-color: #548131; margin: 0 auto; background-image: url(img/info1_btn.png); background-repeat: no-repeat; background-position: center;"></div>
+        <h2 class="md-title">Somos los #1</h2>
+        <p class="md-subhead">Comscore nos ubica como uno de los sitios más visitados de la región.</p>
+    </div>
+    <div class="md-padding col-sm-4">
+        <div style="width: 100px; height: 100px; border-radius: 50%; background-color: #548131; margin: 0 auto; background-image: url(img/info2_btn.png); background-repeat: no-repeat; background-position: center;"></div>
+        <h2 class="md-title">La más alta tecnología</h2>
+        <p class="md-subhead">Contamos con la más alta tecnología en conceptos de y contenidos de internet.</p>
+    </div>
+    <div class="md-padding col-sm-4">
+        <div style="width: 100px; height: 100px; border-radius: 50%; background-color: #548131; margin: 0 auto; background-image: url(img/info3_btn.png); background-repeat: no-repeat; background-position: center;"></div>
+        <h2 class="md-title">6 de cada 10</h2>
+        <p class="md-subhead">6 de cada 10 personas navegan en la red de multimedios mediante un dispositivo móvil.</p>
+    </div>
+</div> -->
 
 
 
 
 <!-- bg-azul -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
  <div id="section1" class="section white-text" style="background-image: url(img/bg-azul.jpg)">
         <div class="container center-align">
         <h1 class="flow-text" align="center" style="color: #ffffff">Rincón de Azahar</h1>
