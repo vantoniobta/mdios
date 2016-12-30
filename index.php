@@ -147,35 +147,36 @@ hr.x1 {
       </a>
 
       <a href="#" class="thumbpull-left">
-        <i class="fa fa-book fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-gamepad fa-5x" style="color:#768282;" aria-hidden="true"></i>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
 
       </a>
 
       <a href="#" class="thumbpull-left">
-        <i class="fa fa-television fa-5x" aria-hidden="true" style="color:#768282;"></i>
+        <i class="fa fa-book fa-5x" aria-hidden="true" style="color:#CD4F39;"></i>
       </a>
     </article>
     </div>
-    </div><br>
+    </div><br><br><br>
     <!--aqui parrafo o texto...-->
 
 
     <div class="col-sm-6 col-md-3">
        <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
-          <md-icon><h2>Confianza</h2></md-icon>
+          <md-icon><h2>Servicios</h2></md-icon>
            <div flex layout="column" layout-align="center end">
                <hr class="x1" style=" ">
-               <span class="md-headline">{{data.stats.uniqueusers}}</span>
-               <span class="md-body">Usuarios únicos</span>
+               
+
+               <span class="md-body">Somos quienes financiamos tus cosas que ya no usas, haciendo un contrato adecuado.  Y nos encargamos de difundir tu producto en redes sociales. </span>
            </div>
        </div>
     </div>
 
   <div class="col-sm-6 col-md-3">
        <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
-          <md-icon><h2>Confianza</h2></md-icon>
+          <md-icon><h2>Contrato</h2></md-icon>
            <div flex layout="column" layout-align="center end">
                <hr class="x1">
                <span class="md-headline">{{data.stats.uniqueusers}}</span>
@@ -187,7 +188,7 @@ hr.x1 {
 
    <div class="col-sm-6 col-md-3">
        <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
-          <md-icon><h2>Confianza</h2></md-icon>
+          <md-icon><h2>Responsabilidad</h2></md-icon>
            <div flex layout="column" layout-align="center end">
            <hr class="x1">
                <span class="md-headline">{{data.stats.uniqueusers}}</span>
@@ -198,7 +199,7 @@ hr.x1 {
 
  <div class="col-sm-6 col-md-3">
        <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
-          <md-icon><h2>Confianza</h2></md-icon>
+          <md-icon><h2>Resultados</h2></md-icon>
            <div flex layout="column" layout-align="center end">
                <hr class="x1">
                <span class="md-headline">{{data.stats.uniqueusers}}</span>
