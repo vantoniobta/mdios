@@ -4,14 +4,14 @@
    <html lang="es">
    <meta charset="UTF-8">
    <meta name="viewport" content="width-device-width, user-scalable-no, initial-scale-1.0,maximun-scale-1.0. minium-scale-1.0">
-	<title>Rincón de Azahar</title>
+	 <title>Rincón de Azahar</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/imagen.css">
+    <link rel="stylesheet" href="css/imagen.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/test1.css">
-  <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" type="text/css" href="css/test1.css">
+    <link rel="icon" href="img/icono.png">
 </head>
 <style type="text/css">
 .fb .fa-facebook-official{
@@ -112,12 +112,9 @@ hr.x1 {
   </div>
 </nav>
 </head>
-<!-- <section class="jumbotron">
-	<div class="container"></div>
-</section> -->
 <!-- botones inferior-->
-    <div class="panel panel-default">
-    <div class="panel-body">
+<div class="panel panel-default">
+  <div class="panel-body">
     <article class="post clearfix">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="#" class="thumbpull-left">
@@ -152,23 +149,18 @@ hr.x1 {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
 
       </a>
-
       <a href="#" class="thumbpull-left">
         <i class="fa fa-book fa-5x" aria-hidden="true" style="color:#CD4F39;"></i>
       </a>
     </article>
     </div>
-    </div><br><br><br>
-    <!--aqui parrafo o texto...-->
-
-
+  </div>
+ <br><br><br>
     <div class="col-sm-6 col-md-3">
        <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
           <md-icon><h2>Servicios</h2></md-icon>
            <div flex layout="column" layout-align="center end">
                <hr class="x1" style=" ">
-               
-
                <span class="md-body">Somos quienes financiamos tus cosas que ya no usas, haciendo un contrato adecuado.  Y nos encargamos de difundir tu producto en redes sociales. </span>
            </div>
        </div>
@@ -176,11 +168,10 @@ hr.x1 {
 
   <div class="col-sm-6 col-md-3">
        <div class="mk-metric mk-metric-blue md-padding" layout="row" layout-align="center">
-          <md-icon><h2>Contrato</h2></md-icon>
+          <md-icon><h2>Datos Personales</h2></md-icon>
            <div flex layout="column" layout-align="center end">
                <hr class="x1">
-               <span class="md-headline">{{data.stats.uniqueusers}}</span>
-               <span class="md-body">Usuarios únicos</span>
+               <span class="md-body">Nos encargamos que proteger tus datos personales de manera segura.</span>
            </div>
        </div>
     </div>
@@ -208,135 +199,13 @@ hr.x1 {
        </div>
     </div>
 
- <!--    <div class="mk-info md-padding container">
-    <div class="md-padding col-sm-4">
-        <div style="width: 150px; height: 150px; border-radius: 50%; background-color: #548131; margin: 0 auto; background-image: url(img/info1_btn.png); background-repeat: no-repeat; background-position: center;"></div>
-        <h2 class="md-title">Somos los #1</h2>
-        <p class="md-subhead">Comscore nos ubica como uno de los sitios más visitados de la región.</p>
-    </div>
-    <div class="md-padding col-sm-4">
-        <div style="width: 100px; height: 100px; border-radius: 50%; background-color: #548131; margin: 0 auto; background-image: url(img/info2_btn.png); background-repeat: no-repeat; background-position: center;"></div>
-        <h2 class="md-title">La más alta tecnología</h2>
-        <p class="md-subhead">Contamos con la más alta tecnología en conceptos de y contenidos de internet.</p>
-    </div>
-    <div class="md-padding col-sm-4">
-        <div style="width: 100px; height: 100px; border-radius: 50%; background-color: #548131; margin: 0 auto; background-image: url(img/info3_btn.png); background-repeat: no-repeat; background-position: center;"></div>
-        <h2 class="md-title">6 de cada 10</h2>
-        <p class="md-subhead">6 de cada 10 personas navegan en la red de multimedios mediante un dispositivo móvil.</p>
-    </div>
-</div> -->
-
-
-
-
-<!-- bg-azul -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
- <div id="section1" class="section white-text" style="background-image: url(img/bg-azul.jpg)">
-        <div class="container center-align">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <div id="section1" class="section white-text" style="height: 150px; background-image: url(img/bg-azul.jpg)">
+         <br>
         <h1 class="flow-text" align="center" style="color: #ffffff">Rincón de Azahar</h1>
         <p class="mb-0" align="center" style="color: #ffffff">Av.Morelos 208, Zona centro, Tamazunchale, S.L.P.<br>
         Tel.(483) 362-0550 E-mail:restaurante.azahar@hotmail.com</p>
-            
-        <!--     <div class="images">
-                <img src="./img/bloque1/tv.png" alt="" />
-                <img src="./img/bloque1/microfono.png" alt="" />
-                <img src="./img/bloque1/antena.png" alt="" />
-                <img src="./img/bloque1/lap.png" alt="" />
-                <img src="./img/bloque1/mobil.png" alt="" />
-            </div> -->
-        </div>
     </div>
-
-
-
-
-
-
-<section class="main container">
-	<div class="container">
-		<section class="post cold-md-6" >
-   <!--  <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title" align="center">Hola!</h3>
-      </div>
-      <div class="panel-body">
-      </div>
-    </div> -->
-
-<!-- 		<div class="subbotones">
-			<ol class="breadcrumb">
-				<li><a href="#">Hola</a></li>
-        <li><a href="#"></a></li>
-			</ol>
-		</div> -->
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!--aqui parrafo o texto...-->
-<!--     <div class="panel panel-default">
-    <div class="panel-body">
-		<article class="post clearfix">
-      <a href="#" class="thumbpull-left">
-        <i class="fa fa-car fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			</a>
-
-       <a href="#" class="thumbpull-left">
-        <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </a>
-
-      <a href="#" class="thumbpull-left">
-        <i class="fa fa-motorcycle fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </a>
-
-      <a href="#" class="thumbpull-left">
-        <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </a>
-
-      <a href="#" class="thumbpull-left">
-        <i class="fa fa-home fa-5x" aria-hidden="true"></i>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </a>
-
-      <a href="#" class="thumbpull-left">
-        <i class="fa fa-book fa-5x" aria-hidden="true"></i>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-      </a>
-
-      <a href="#" class="thumbpull-left">
-        <i class="fa fa-television fa-5x" aria-hidden="true"></i>
-      </a>
-		</article>
-    </div>
-    </div>
-		<!--aqui parrafo o texto...--> 
-
-		</section>
-	</div>
-</section>
-<!-- botones inferior-->
-
-<section class="main container"></section>
 
 </body>
 

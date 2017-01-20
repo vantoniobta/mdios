@@ -64,7 +64,7 @@ body {
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
   <div class="wrapper">
     <form class="form-signin" action="acceso.php" method="post">       
-      <h2 class="form-signin-heading" align="center">Bienvenido</h2>
+      <center><img src="../img/logo.png" width="140px" height="70px"></center>
       <label>Usuario:</label>
       <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" /><br>
       <label>Password:</label>

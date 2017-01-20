@@ -42,7 +42,7 @@
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/scc.css">
-  <link rel="stylesheet" type="text/css" href="css/test1.css">
+  <link rel="stylesheet" type="text/css" href="../css/test1.css">
   <link rel="icon" href="../img/icono.png">
 </head>
 <style type="text/css">

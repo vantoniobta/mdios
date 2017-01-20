@@ -46,21 +46,16 @@
    <a href="principal.php"><img src="../img/original.PNG" class="img-rounded"  width="130" height="52"></a>
    </div>
    <!--inicio del menu principal-->
-   <div class="collapse navbar-collapse" id="navegacion-fm">
-        <ul class="nav navbar-nav">
-        <li><a href="principal.php" style="color: white;">Dashboard</a></li>
-        <li><a href="../index.php" style="color: white;">Frontend</a></li>
-        <li><a href="dashboard.php" style="color: white;">Salir</a></li>
-        </ul>
-   </div>
-
-   </div>
+       <div class="collapse navbar-collapse" id="navegacion-fm">
+          <ul class="nav navbar-nav">
+          <li><a href="principal.php" style="color: white;">Dashboard</a></li>
+          <li><a href="../index.php" style="color: white;">Frontend</a></li>
+          <li><a href="dashboard.php" style="color: white;">Salir</a></li>
+          </ul>
+        </div>
+     </div>
 </nav>
 </head>
-
-<!-- <section class="jumbotron">
-	<div class="container"></div>
-</section> -->
 <!-- botones inferior-->
 <section class="main container">
 	<div class="container" >
@@ -70,34 +65,18 @@
      ?>
      <br><br>
     <!-- **********************************************************-->
-          <form action="upload.php?id=<?php echo $optener; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
-              <div class="fileUpload btn btn-danger-outline btn-sm">
-                <div class="fileUpload btn btn-danger"><i class="fa fa-upload" aria-hidden="true"></i>&nbsp;&nbsp;Subir foto
-                  <input type="file" name="file[]" class="upload" multiple/>
-                </div>
-              </div>
-
-              <hr style="border: 1px dashed green; height: 0; width: 100%;">
-              
-<!--               <div class="alert alert-success" >
-              <span class="select-wrapper">
-                 <input type="file" class="upload" name="pdc" id="pdc">
-                 </span>
-         <!--         <i class=" fa fa-upload fa-2x" aria-hidden="true"></i><span>
-                   &nbsp;Upload Image
-                 </span> -->
-
-              </div>
-            
-            <hr>
-            <div class="form-group">
-                <label class="col-md-3 control-label"></label>
-                <div class="submit">
-                   <input class="btn btn-success" value="Subir" type="submit" name="submit">
-                </div> 
+    <div style="background-color:#ccffcc; height: 100px;" >
+     <form action="upload.php?id=<?php echo $optener; ?>" method="post" enctype="multipart/form-data" class="form-horizontal" name="multiple_upload_form" id="multiple_upload_form">
+          <div class="fileUpload btn btn-danger-outline btn-sm">
+            <div class="fileUpload btn btn-danger"><i class="fa fa-upload fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;Seleccionar...
+              <input type="file" name="file[]" id="phs" class="upload" multiple/>
             </div>
-
+          </div>
+              <button class="btn btn-success" type="submit" name="submit" style="width: 100px;">
+              <i class="fa fa-floppy-o fa-3x" aria-hidden="true"></i>
+             </button>
       </form>
+      </div>
      <!-- **********************************************************-->
      <label>Imagenes del producto</label>
      <br>
@@ -138,10 +117,5 @@
 </section>
 </div>
 </section>
-<!-- botones inferior-->
-<section class="main container"></section>
-<script type="text/javascript">
-
-</script>
 </body>
 </html>

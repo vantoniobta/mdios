@@ -12,34 +12,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <link rel="icon" href="../img/icono.png">
-    <link rel="stylesheet" type="text/css" href="css/test1.css">
+    <link rel="stylesheet" type="text/css" href="../css/test1.css">
 </head>
-<style type="text/css">
-.fb .fa-facebook-official{
-   color: white;
-}
-  .tw .fa-twitter-square {
-  color: white;
-}
-/* enable absolute positioning */
-.inner-addon { 
-    position: relative; 
-}
-/* style icon */
-.inner-addon .fa-search {
-  position: absolute;
-  padding: 10px;
-  pointer-events: none;
-}
-/* align icon */
-.left-addon .fa-search  { left:  0px;}
-.right-addon .fa-search { right: 0px;}
+    <style type="text/css">
+    .fb .fa-facebook-official{
+       color: white;
+    }
+      .tw .fa-twitter-square {
+      color: white;
+    }
+    /* enable absolute positioning */
+    .inner-addon { 
+        position: relative; 
+    }
+    /* style icon */
+    .inner-addon .fa-search {
+      position: absolute;
+      padding: 10px;
+      pointer-events: none;
+    }
+    /* align icon */
+    .left-addon .fa-search  { left:  0px;}
+    .right-addon .fa-search { right: 0px;}
 
-/* add padding  */
-.left-addon input  { padding-left:  30px; }
-.right-addon input { padding-right: 30px; }
+    /* add padding  */
+    .left-addon input  { padding-left:  30px; }
+    .right-addon input { padding-right: 30px; }
 
-</style>
+    </style>
 <body>
 <head>
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="background-color: #006699;">
@@ -143,12 +143,12 @@
 </section>
 <!-- baner superios -->
 
- <div id="section1" class="section white-text" style="background-image: url(../img/bg-azul.jpg)">
-        <div class="container center-align">
+ <div id="section1" class="section white-text" style="height: 150px; background-image: url(../img/bg-azul.jpg)">
+        <!-- <div class="container center-align"> --><br>
         <h1 class="flow-text" align="center" style="color: #ffffff">Rincón de Azahar</h1>
         <p class="mb-0" align="center" style="color: #ffffff">Av.Morelos 208, Zona centro, Tamazunchale, S.L.P.<br>
         Tel.(483) 362-0550 E-mail:restaurante.azahar@hotmail.com</p>
-        </div>
+        <!-- </div> -->
     </div>
 
 

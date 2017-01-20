@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../css/imagen.css">
    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/test1.css">
+      <link rel="stylesheet" type="text/css" href="../css/test1.css">
     <link rel="icon" href="../img/icono.png">
 </head>
 <style type="text/css">
@@ -158,12 +158,12 @@
 
 
       <!-- baner superios -->
- <div id="section1" class="section white-text" style="background-image: url(../img/bg-azul.jpg)">
-        <div class="container center-align">s
+ <div id="section1" class="section white-text" style="height: 150px; background-image: url(../img/bg-azul.jpg)"><br>
+        <!-- <div class="container center-align"> -->
         <h1 class="flow-text" align="center" style="color: #ffffff">Rincón de Azahar</h1>
         <p class="mb-0" align="center" style="color: #ffffff">Av.Morelos 208, Zona centro, Tamazunchale, S.L.P.<br>
         Tel.(483) 362-0550 E-mail:restaurante.azahar@hotmail.com</p>
-        </div>
+    <!--     </div> -->
     </div>
 </body>
 </html>

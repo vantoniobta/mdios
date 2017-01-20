@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$password = "";
+$password = "529440";
 $baseDe="sistematc";
 
 $con=mysql_connect($host,$user,$password)or die("no se ha podido establecer la conexion");
